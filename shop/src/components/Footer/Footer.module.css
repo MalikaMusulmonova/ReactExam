@@ -1,0 +1,25 @@
+ul {
+  list-style: none;
+}
+
+.Footer {
+  width: 100%;
+  background-color: #bb2339;
+  padding: 3rem 0rem;
+}
+
+.Footer__div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5.5rem;
+}
+
+.Footer__item {
+  color: #ffffff;
+}
+
+.Footer__endParagraph {
+  text-align: centers;
+  margin-left: 1rem;
+  color: #ffffff;
+}

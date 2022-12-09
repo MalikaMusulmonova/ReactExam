@@ -1,0 +1,22 @@
+.About{
+    &__title{
+        font-weight: 400;
+        text-transform: capitalize;
+        font-feature-settings: 'tnum' on, 'lnum' on;      
+        color: #242424;
+        font-size: 54px;
+    }
+
+    &__paragraph{
+        align-items: center;
+        color: #242424;
+        opacity: 0.8;
+    }
+}
+
+.Newsletter{
+    background-color: #c12c42;
+    width: 800px;
+    align-items: center;
+    text-align: center;
+}

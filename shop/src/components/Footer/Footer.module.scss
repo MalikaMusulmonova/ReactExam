@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+}
+
+.Footer{
+    width: 100%;
+    background-color: #bb2339;
+    padding: 3rem 0rem;
+    
+    &__div{
+       
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 5.5rem;
+
+    }
+
+    &__item{
+        color: #ffffff;
+    }
+
+
+    &__endParagraph{
+        text-align: centers;
+        margin-left: 1rem;
+        color: #ffffff;
+    }
+
+   
+}

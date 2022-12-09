@@ -1,0 +1,76 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #BB2339;
+}
+
+.Navbar__logo {
+  color: #ffff;
+}
+
+.Navbar__nav {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__nav__active {
+  color: #ffff;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Navbar__nav__passive {
+  color: #ffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Navbar__nav__activeBtn {
+  color: #ffff;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Navbar__nav__passiveBtn {
+  color: #ffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  border: 2px solid #ffff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.Navbar__nav__passiveBtn:hover {
+  background-color: #ffff;
+  color: #BB2339;
+}
+
+.Navbar__nav__activeBtn1 {
+  color: #ffff;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Navbar__nav__passiveBtn1 {
+  color: #ffff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  border: 2px solid #ffff;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.Navbar__nav__passiveBtn1:hover {
+  background-color: #020101;
+}
